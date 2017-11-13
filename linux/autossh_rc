@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+source ~hiarcs/.linchpin
+
+autossh -M $ssh_remote_monitor_port -fN -o "ServerAliveCountMax 5" -o "PubkeyAuthentication=yes" -o "ServerAliveInterval 60" -R $ssh_remote_port:localhost:22 linchpin.youngfey.com
