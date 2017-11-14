@@ -14,7 +14,7 @@
 start()
 {
     echo "Starting AutoSSH"
-    su hiarcs -c /home/hiarcs/autossh.sh
+    su hiarcs -c \$HOME/tools/linchpin/linux/autossh.sh
 }
 
 stop()

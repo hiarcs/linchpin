@@ -6,5 +6,7 @@
 # 安装git
 # 
 su -c "$HOME/tools/linchpin/linux/fedora26/root_basic.sh"
+su -c $HOME/tools/linchpin/linux/root_linux.sh
 $HOME/tools/linchpin/linux/fedora26/user_basic.sh
+$HOME/tools/linchpin/linux/user_linux.sh
 $HOME/tools/linchpin/user_noarch.sh
