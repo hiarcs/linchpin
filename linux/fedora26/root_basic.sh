@@ -4,3 +4,4 @@ dnf upgrade -y
 curl -O http://linchpin-1253798403.cossh.myqcloud.com/webmin-1.860-1.noarch.rpm
 dnf install webmin-1.860-1.noarch.rpm -y
 firewall-cmd --permanent --add-port=10000/tcp
+dnf install vim-e* hg autossh -y
